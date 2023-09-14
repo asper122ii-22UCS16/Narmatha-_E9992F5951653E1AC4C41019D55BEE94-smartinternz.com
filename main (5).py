@@ -1,0 +1,13 @@
+class player:
+   def play(self):
+     print("the player is playing cricket.")
+class Batsman(player):
+  def play(self):
+    print("the batsman is batting.")
+class Bowler(player):
+  def play(self):
+    print("tha bowler is bowler.")
+batsman=Batsman()
+bowler=Bowler()
+batsman.play()
+bowler.play()
